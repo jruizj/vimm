@@ -13,6 +13,8 @@ body
 	margin-bottom: 5px;
 	background: white;
 	border: 1px solid #C9E0ED;
+        position: relative;
+        top: 27px;
 }
 
 #header
@@ -49,7 +51,12 @@ body
 
 #mainmenu
 {
-	background:white url(bg.gif) repeat-x left top;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background:white url(bg.gif) repeat-x left top;
+        
 }
 
 #mainmenu ul
@@ -78,6 +85,17 @@ body
 	color: #6399cd;
 	background-color:#EFF4FA;
 	text-decoration:none;
+}
+
+#mainmenu #mainMenuLeft
+{
+    display: block;
+    float: left;
+}
+
+#mainmenu #mainMenuRight
+{
+	float: right;
 }
 
 div.flash-error, div.flash-notice, div.flash-success

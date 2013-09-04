@@ -279,3 +279,58 @@ REQUEST_URI=/vimm/index.php/site/register
 in C:\xampp\htdocs\vimm\protected\views\site\register.php (41)
 in C:\xampp\htdocs\vimm\protected\controllers\SiteController.php (134)
 in C:\xampp\htdocs\vimm\index.php (13)
+2013/09/04 21:39:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "mapa".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('mapa')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('mapa')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/mapa')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vimm\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/vimm/index.php/site/mapa
+HTTP_REFERER=http://127.0.0.1/vimm/index.php
+---
+2013/09/04 21:43:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "mapa".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('mapa')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('mapa')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/mapa')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vimm\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/vimm/index.php/site/mapa
+HTTP_REFERER=http://127.0.0.1/vimm/index.php
+---
+2013/09/04 21:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "mapa".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('mapa')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('mapa')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/mapa')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vimm\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/vimm/index.php/site/mapa
+HTTP_REFERER=http://127.0.0.1/vimm/index.php/site/index
+---
+2013/09/04 21:46:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "mapa".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('mapa')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('mapa')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/mapa')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vimm\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/vimm/index.php/site/mapa
+HTTP_REFERER=http://127.0.0.1/vimm/index.php/site/index
+---
+2013/09/04 22:43:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "mapa".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('mapa')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('mapa')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/mapa')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\vimm\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/vimm/index.php/site/mapa
+HTTP_REFERER=http://127.0.0.1/vimm/index.php
+---
